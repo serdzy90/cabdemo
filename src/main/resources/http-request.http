@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/shorten?url=http://www.example.com
+
+###
+//@no-redirect
+GET http://localhost:8080/r/e640f481
+Content-Type: application/json
+
+###
